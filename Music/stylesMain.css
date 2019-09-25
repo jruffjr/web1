@@ -1,0 +1,20 @@
+img {
+  height: 32rem;
+  width: 100%;
+  resize: both;
+}
+.holder1 {
+  color: #347474;
+  height: 5rem;
+}
+h1 {
+  text-align: center;
+}
+
+
+
+@media (min-width: 1500px) {
+  img {
+
+  }
+}

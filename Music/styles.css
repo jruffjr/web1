@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-color: #d9eeec;
+}
+
+#container {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-align: justify;
+
+}
+h5 {
+  text-align: center;
+  z-index: -1;
+  position: relative;
+  bottom: 15rem;
+
+
+}
+
+p {
+  text-align: center;
+  z-index: -1;
+  position: relative;
+  bottom: 15rem;
+  font-size: 1.5rem;
+}
+
+
+img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: .3rem;
+  border-radius: 100%;
+  transition: all 1s ease;
+}
+
+
+img:hover {
+  opacity: .1;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3.5rem;
+
+  }
+}
